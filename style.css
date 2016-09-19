@@ -12,7 +12,7 @@ html, body {
 }
 
 .CodeMirror-lines {
-    padding: 4px 0px;
+    padding: 4px 0px;ㄹ
 }
 
 .CodeMirror pre {}
@@ -1358,6 +1358,7 @@ ul:last-child, ol:last-child {
 }
 
 blockquote {
+    font-size: 0.8rem;
     border-left: 4px solid #dddddd;
     padding: 0 15px;
     color: #777777;
