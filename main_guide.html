@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <meta charset='UTF-8'>
+  <meta charset='UTF-8' lang="ko">
   <meta name='viewport' content='width=device-width initial-scale=1'>
   <title>main_guide</title>
   <link rel="stylesheet" href="style.css" media="screen" title="no title">
@@ -10,10 +10,10 @@
 
 <body class='typora-export '>
   <div id='write' class='is-mac'>
+    <h1><a name='header-c6' class='md-header-anchor '></a>유아평가관리앱</h1>
+    <h1><a name='header-c9' class='md-header-anchor '></a><img src='home.png' alt='home' /></h1>
     <div class='md-toc' mdtype='toc'>
       <p class="md-toc-content">
-          <span class="md-toc-item md-toc-h1" data-ref="c6"><a class="md-toc-inner" href="#header-c6">유아평가관리앱</a></span>
-          <span class="md-toc-item md-toc-h1" data-ref="c9"><a class="md-toc-inner" href="#header-c9"></a></span>
           <span class="md-toc-item md-toc-h2" data-ref="c10"><a class="md-toc-inner" href="#header-c10">사용설명서</a></span>
           <span class="md-toc-item md-toc-h3" data-ref="c13"><a class="md-toc-inner" href="#header-c13">주요메뉴</a></span>
           <span class="md-toc-item md-toc-h4" data-ref="c14"><a class="md-toc-inner" href="#header-c14">유아</a></span>
@@ -21,7 +21,7 @@
           <span class="md-toc-item md-toc-h4" data-ref="c115"><a class="md-toc-inner" href="#header-c115">교사평가</a></span>
           <span class="md-toc-item md-toc-h4" data-ref="c128"><a class="md-toc-inner" href="#header-c128">더보기</a></span>
           <span class="md-toc-item md-toc-h3" data-ref="c142"><a class="md-toc-inner" href="#header-c142">유아평가</a></span>
-          <span class="md-toc-item md-toc-h4" data-ref="c143"><a class="md-toc-inner" href="#header-c143"> 누리과정 관찰척도</a></span>
+          <span class="md-toc-item md-toc-h4" data-ref="c143"><a class="md-toc-inner" href="#header-c143">누리과정 관찰척도</a></span>
           <span class="md-toc-item md-toc-h4" data-ref="c215"><a class="md-toc-inner" href="#header-c215">사회∙정서 발달</a></span>
           <span class="md-toc-item md-toc-h4" data-ref="c253"><a class="md-toc-inner" href="#header-c253">식습관</a></span>
           <span class="md-toc-item md-toc-h4" data-ref="c267"><a class="md-toc-inner" href="#header-c267">공격성</a></span>
@@ -38,8 +38,7 @@
           <span class="md-toc-item md-toc-h3" data-ref="c753"><a class="md-toc-inner" href="#header-c753">도움주신 분</a></span>
       </p>
     </div>
-    <h1><a name='header-c6' class='md-header-anchor '></a>유아평가관리앱</h1>
-    <h1><a name='header-c9' class='md-header-anchor '></a><img src='home.png' alt='home' /></h1>
+
     <h2><a name='header-c10' class='md-header-anchor '></a>사용설명서</h2>
     <h3><a name='header-c13' class='md-header-anchor '></a>주요메뉴</h3>
     <h4><a name='header-c14' class='md-header-anchor '></a>유아</h4>
@@ -537,8 +536,8 @@ Frodi, A., Macaulay, J., &amp; Thome, P. R. (1977). Are women always aggressive 
             <ol>
               <li>
                 <p>도식평정의 예</p>
+                <li>전혀 그렇지 않다</li>
                 <ul>
-                  <li>전혀 그렇지 않다</li>
                   <li>별로 그렇지 않다.</li>
                   <li>보통이다</li>
                   <li>대체로 그렇다</li>
@@ -589,7 +588,23 @@ Frodi, A., Macaulay, J., &amp; Thome, P. R. (1977). Are women always aggressive 
     <hr />
     <p>© copyright 강원유아교육진흥원</p>
   </div>
+  <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script type="text/javascript">
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+  </script>
 </body>
-<script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
-
 </html>
