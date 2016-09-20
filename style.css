@@ -1503,6 +1503,3 @@ Back to top button
 	-moz-transition: 1s;
 	transition: 1s;
 }
-#back-top a:hover span {
-	background-color: #999;
-}
