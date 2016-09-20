@@ -1482,18 +1482,10 @@ Back to top button
 #back-top a {
 	width: 50px;
 	display: block;
-	text-align: center;
-	font: 11px/100% Arial, Helvetica, sans-serif;
-	text-transform: uppercase;
-	text-decoration: none;
-	color: #bbb;
 	/* background color transition */
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
 	transition: 1s;
-}
-#back-top a:hover {
-	color: #000;
 }
 /* arrow icon (span tag) */
 #back-top span {
@@ -1501,7 +1493,7 @@ Back to top button
 	height: 50px;
 	display: block;
 	margin-bottom: 7px;
-	background: #ddd url(up-arrow.png) no-repeat center center;
+	background: #eee url(up-arrow.png) no-repeat center center;
 	/* rounded corners */
 	-webkit-border-radius: 30px;
 	-moz-border-radius: 30px;
@@ -1512,5 +1504,5 @@ Back to top button
 	transition: 1s;
 }
 #back-top a:hover span {
-	background-color: #777;
+	background-color: #999;
 }
