@@ -618,11 +618,40 @@ Frodi, A., Macaulay, J., &amp; Thome, P. R. (1977). Are women always aggressive 
     </ul>
     <hr />
     <p>© copyright 강원유아교육진흥원</p>
+
+    <div id="back-top">
+        <a href="#top"><span></span>맨위로</a>
+    </div>
   </div>
-  <script src="http://localhost:35729/livereload.js" charset="utf-8"></script>
+
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script type="text/javascript">
-    $(function() {
+    $(document).ready(function(){
+
+      // hide #back-top first
+      $("#back-top").hide();
+
+      // fade in #back-top
+      $(function() {
+          $(window).scroll(function () {
+              if ($(this).scrollTop() > 100) {
+                  $('#back-top').fadeIn();
+              } else {
+                  $('#back-top').fadeOut();
+              }
+          });
+
+          // scroll body to 0px on click
+          $('#back-top a').click(function () {
+              $('body,html').animate({
+                  scrollTop: 0
+              }, 800);
+              return false;
+          });
+      });
+
+      $(function() {
       $('a[href*="#"]:not([href="#"])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -636,6 +665,10 @@ Frodi, A., Macaulay, J., &amp; Thome, P. R. (1977). Are women always aggressive 
         }
       });
     });
+
+  });
+
+
   </script>
 </body>
 </html>
