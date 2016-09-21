@@ -1,3 +1,4 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 html, body {
     overflow-x: initial !important;
 }
@@ -14,7 +15,7 @@ body {
     top: 0px;
     left: 0px;
     right: 0px;
-    font-family: "Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Spoqa Han Sans', "Nanum Gothic","맑은 고딕","Malgun Gothic","돋움",'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     color: rgb(51, 51, 51);
